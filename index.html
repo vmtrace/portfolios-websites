@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="   .css">
+</head>
+<body>
+ <header class="header" id="topo">
+    <div class="container header-inner">
+      <a href="#topo" class="logo">&#60;dev<span>/></span></a>
+      <nav class="nav" aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+ 
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="hero-greeting" id="saudacao">Olá, eu sou</p>
+          <h1 class="hero-title">Desenvolvedor<br /><span>Front-end</span> &amp; Designer</h1>
+          <p class="hero-text">
+            Crio interfaces digitais modernas, rápidas e acessíveis, unindo
+            código limpo e design que resolve problemas reais.
+          </p>
+          <div class="hero-actions">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-secondary">Fale comigo</a>
+          </div>
+        </div>
+        <div class="hero-terminal" aria-hidden="true">
+          <div class="terminal-head">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="terminal-title">portfolio.js</span>
+          </div>
+          <pre class="terminal-body"><code><span class="c-keyword">const</span> <span class="c-var">dev</span> = {</code><code>  nome: <span class="c-string">'Seu Nome'</span>,</code><code>  foco: <span class="c-string">'front-end &amp; design'</span>,</code><code>  stack: [<span class="c-string">'HTML'</span>, <span class="c-string">'CSS'</span>, <span class="c-string">'JS'</span>],</code><code>  <span class="c-fn">criar</span>() {</code><code>    <span class="c-keyword">return</span> <span class="c-string">'experiências digitais'</span>;</code><code>  }</code><code>};</code><span class="c-cursor"></span></pre>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section" id="sobre">
+      <div class="container">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-subtitle">Um pouco da minha trajetória</p>
+        <div class="sobre-grid">
+          <div class="sobre-texto">
+            <p>
+              Sou desenvolvedor web com foco em <strong>front-end</strong> e
+              <strong>design de interfaces</strong>. Gosto de transformar ideias
+              em produtos visuais funcionais, com atenção aos detalhes de
+              usabilidade e performance.
+            </p>
+            <p>
+              Trabalho com HTML, CSS e JavaScript no dia a dia, sempre buscando
+              boas práticas de acessibilidade, responsividade e organização do código.
+            </p>
+          </div>
+          <ul class="sobre-fatos">
+            <li><span>Experiência</span> 3+ anos</li>
+            <li><span>Projetos</span> 20+ entregues</li>
+            <li><span>Foco</span> Web e UI/UX</li>
+            <li><span>Localização</span> Brasil (remoto)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section section-alt" id="habilidades">
+      <div class="container">
+        <h2 class="section-title">Habilidades</h2>
+        <p class="section-subtitle">Tecnologias e ferramentas que uso</p>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <span class="skill-icon">&#60;&#62;</span>
+            <h3>HTML &amp; CSS</h3>
+            <div class="skill-bar"><span data-width="95"></span></div>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">{ }</span>
+            <h3>JavaScript</h3>
+            <div class="skill-bar"><span data-width="85"></span></div>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">▲</span>
+            <h3>React</h3>
+            <div class="skill-bar"><span data-width="75"></span></div>
+          </div>
+          <div class="skill-card">
+            <span class="skill-icon">✦</span>
+            <h3>UI / UX Design</h3>
+            <div class="skill-bar"><span data-width="80"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section" id="projetos">
+      <div class="container">
+        <h2 class="section-title">Projetos</h2>
+        <p class="section-subtitle">Alguns trabalhos que desenvolvi</p>
+        <div class="projects-grid" id="projetosGrid">
+          <article class="project-card">
+            <div class="project-preview preview-1"></div>
+            <div class="project-info">
+              <h3>E-commerce Store</h3>
+              <p>Loja virtual com catálogo, carrinho e checkout responsivo.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <a href="#" class="project-link">Ver projeto &#8599;</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-2"></div>
+            <div class="project-info">
+              <h3>Dashboard Analytics</h3>
+              <p>Painel de métricas com gráficos interativos e tema dark.</p>
+              <div class="project-tags">
+                <span>React</span><span>CSS</span>
+              </div>
+              <a href="#" class="project-link">Ver projeto &#8599;</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-preview preview-3"></div>
+            <div class="project-info">
+              <h3>Landing Page App</h3>
+              <p>Página de divulgação com animações suaves e alta conversão.</p>
+              <div class="project-tags">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <a href="#" class="project-link">Ver projeto &#8599;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+ 
+    <section class="section section-alt" id="contato">
+      <div class="container contato-inner">
+        <h2 class="section-title">Vamos trabalhar juntos?</h2>
+        <p class="section-subtitle">Tem um projeto em mente? Me chama!</p>
+        <form class="contato-form" id="formContato">
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="voce@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Conte sobre o seu projeto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+ 
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&#169; <span id="ano"></span> Meu Portfólio. Feito com HTML, CSS e JavaScript.</p>
+      <div class="footer-links">
+        <a href="#" aria-label="GitHub">GitHub</a>
+        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+        <a href="#" aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+  </footer>
+ 
+  <script src="js/main.js"></script>
+</body>
+</html>
